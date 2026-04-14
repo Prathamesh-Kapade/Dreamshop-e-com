@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shopping_db
+    username: postgres
+    password: admin123
+
+  spring:
+    jpa:
+      show-sql: false
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+  thymeleaf:
+    cache: false
+
+  redis:
+    host: localhost
+    port: 6379
+
+  cache:
+    redis:
+      time-to-live: 600000
+
+stripe:
+  secret:
+    key: ${STRIPE_SECRET_KEY}
+
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: WARN
+    org.apache.catalina: WARN
+    com.zaxxer.hikari: WARN
+    org.postgresql: WARN
+    io.netty: WARN
+    io.lettuce: WARN
+
+
+  jpa:
+    open-in-view: false
+    show-sql: false
+
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB

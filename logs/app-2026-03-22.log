@@ -1,0 +1,4 @@
+2026-03-22 09:17:50 [INFO] c.d.d.DreamShopsApplicationTests - Starting DreamShopsApplicationTests using Java 21.0.7 with PID 4448 (started by Prathamesh in D:\Prathamesh\dream-shops\dream-shops)
+2026-03-22 09:17:50 [DEBUG] c.d.d.DreamShopsApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-22 09:17:50 [INFO] c.d.d.DreamShopsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-22 09:18:00 [INFO] c.d.d.DreamShopsApplicationTests - Started DreamShopsApplicationTests in 10.839 seconds (process running for 12.342)

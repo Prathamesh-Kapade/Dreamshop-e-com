@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: dream-shops
+
+  profiles:
+    active: dev
+
+server:
+  port: 9193
+
+api:
+  prefix: /api/v1
+
+auth:
+  token:
+    expirationInMils: 86400000
+    jwtSecret: ${JWT_SECRET:MySuperSecureJwtSecretKeyThatIsAtLeast32CharactersLong12345}
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update

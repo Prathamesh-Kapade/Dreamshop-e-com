@@ -1,0 +1,45 @@
+2026-03-29 08:36:56 [INFO] c.d.d.DreamShopsApplicationTests - Starting DreamShopsApplicationTests using Java 17.0.17 with PID 46580 (started by Prathamesh in D:\Prathamesh\dream-shops\dream-shops)
+2026-03-29 08:36:56 [DEBUG] c.d.d.DreamShopsApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-29 08:36:56 [INFO] c.d.d.DreamShopsApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Placing order for userId: 1
+2026-03-29 08:37:05 [WARN] c.d.d.service.order.OrderService - Cart not found for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Fetching orders for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Total orders found: 2 for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Converting Order to DTO | orderId: com.demo.dreamshops.model.Order@1e1d813a
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Converting Order to DTO | orderId: com.demo.dreamshops.model.Order@3c2e73ce
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Placing order for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Creating order for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Order object created for userId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Creating order items for order
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Processing product | productId: 101, quantity: 2
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Inventory updated | productId: 101, remaining: 8
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Calculated total order amount: 1000
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Total order amount calculated: 1000
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Order saved successfully | orderId: com.demo.dreamshops.model.Order@6bf34912
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Cart cleared after order placement | cartId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Fetching order by ID: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Order found | orderId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Converting Order to DTO | orderId: com.demo.dreamshops.model.Order@82382d1
+2026-03-29 08:37:05 [INFO] c.d.d.service.order.OrderService - Fetching order by ID: 1
+2026-03-29 08:37:05 [WARN] c.d.d.service.order.OrderService - Order not found | orderId: 1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Update product id=1
+2026-03-29 08:37:05 [DEBUG] c.d.d.service.product.ProductService - Updating product fields for id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - Product updated successfully id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Get product by id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Get product by id=1
+2026-03-29 08:37:05 [WARN] c.d.d.service.product.ProductService - Product not found for id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Add product with name=Laptop and brand=Dell
+2026-03-29 08:37:05 [DEBUG] c.d.d.service.product.ProductService - Check product exists: name=Laptop brand=Dell result=false
+2026-03-29 08:37:05 [DEBUG] c.d.d.service.product.ProductService - Creating product entity for name=Laptop brand=Dell
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - Product added successfully with id=null
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Delete product by id=1
+2026-03-29 08:37:05 [WARN] c.d.d.service.product.ProductService - Product not found for deletion id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Update product id=1
+2026-03-29 08:37:05 [WARN] c.d.d.service.product.ProductService - Product not found for update id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Get products page 0 with size 2
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - Fetched 2 products from DB
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Add product with name=Laptop and brand=Dell
+2026-03-29 08:37:05 [DEBUG] c.d.d.service.product.ProductService - Check product exists: name=Laptop brand=Dell result=true
+2026-03-29 08:37:05 [WARN] c.d.d.service.product.ProductService - Product already exists: brand=Dell name=Laptop
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - SERVICE CALL: Delete product by id=1
+2026-03-29 08:37:05 [INFO] c.d.d.service.product.ProductService - Product deleted successfully id=1
