@@ -46,3 +46,10 @@ logging:
     org.springframework: WARN
     org.hibernate: WARN
     org.springframework.security: WARN
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
