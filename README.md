@@ -17,6 +17,8 @@ Run locally (without Docker)
 bash# Ensure PostgreSQL and Redis are running locally
 mvn spring-boot:run -Dspring-boot.run.profiles=dev
 
+https://dream-shops-5qpp.onrender.com
+
 API Overview
 ModuleBase PathAuth/api/v1/authProducts/api/v1/productsCategories/api/v1/categoriesCart/api/v1/carts, /api/v1/cartItemsOrders/api/v1/ordersImages/api/v1/imagesPayments/api/v1/paymentsUsers/api/v1/users
 
